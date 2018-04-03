@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
-public class StagingServe {
+public class StagingServer {
 	
 	@Test
 	public void testjenkins() {
