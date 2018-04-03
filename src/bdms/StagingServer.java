@@ -22,8 +22,8 @@ public class StagingServer {
 		// maximize the browser
 		driver.manage().window().maximize();
 		//define the Url's
-		driver.get("http://jnk:be@free@stg.befreecrm.com.au");
-		driver.get("http://stg.befreecrm.com.au/bdms/release1.8.0/");
+		//driver.get("http://jnk:be@free@stg.befreecrm.com.au");
+		//driver.get("http://stg.befreecrm.com.au/bdms/release1.8.0/");
 		//defining the elements and perform actions such as click on it
 		driver.findElement(By.id("txtName")).sendKeys("admin");
 		driver.findElement(By.id("txtPassword")).sendKeys("admin");
