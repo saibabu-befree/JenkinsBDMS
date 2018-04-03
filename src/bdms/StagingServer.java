@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
-public class StagingServer {
+public class StagingServe {
 	
 	@Test
 	public void testjenkins() {
@@ -23,7 +23,7 @@ public class StagingServer {
 		driver.manage().window().maximize();
 		//define the Url's
 		//driver.get("http://jnk:be@free@stg.befreecrm.com.au");
-		//driver.get("http://stg.befreecrm.com.au/bdms/release1.8.0/");
+		driver.get("http://stg.befreecrm.com.au/bdms/release1.8.0/");
 		//defining the elements and perform actions such as click on it
 		driver.findElement(By.id("txtName")).sendKeys("admin");
 		driver.findElement(By.id("txtPassword")).sendKeys("admin");
